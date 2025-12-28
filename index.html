@@ -1,12 +1,69 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Your Name</title>
-  </head>
-  <body>
-    <h1>Hello!</h1>
-    <p>This is my first GitHub Pages site.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yang Wang — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <a href="index.html">Yang Wang</a>
+        <div class="subtitle">University of Maryland, Baltimore</div>
+      </div>
+
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Welcome</h1>
+      <p>
+        I am a researcher at the University of Maryland, Baltimore.
+        My work focuses on sleep, chronic pain, and placebo effects.
+      </p>
+      <div class="buttons">
+        <a class="button" href="research.html">Explore Research</a>
+        <a class="button secondary" href="contact.html">Get in Touch</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>News</h2>
+      <ul>
+        <li>Add your latest updates here (talks, papers, grants, lab openings).</li>
+        <li>Example: “New preprint on …”</li>
+      </ul>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Research Areas</h2>
+        <p>Sleep & circadian rhythms • Chronic pain • Placebo/open-label placebo</p>
+      </div>
+      <div class="card">
+        <h2>Selected Publications</h2>
+        <p>Add 2–4 key papers here with links (Google Scholar / PubMed).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="y"></span> Yang Wang</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
