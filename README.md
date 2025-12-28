@@ -1,2 +1,2 @@
-# yang.wang.github.io
+# wydaisy.github.io
 Yang Wang at University of Maryland, Baltimore
