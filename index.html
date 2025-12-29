@@ -24,26 +24,47 @@
   </header>
 
   <main class="container">
+
+    <!-- HERO: text + your photo -->
     <section class="hero">
-      <h1>Welcome</h1>
-      <p>
-        I am a researcher at the University of Maryland, Baltimore.
-        My work focuses on sleep, chronic pain, and placebo effects.
-      </p>
-      <div class="buttons">
-        <a class="button" href="research.html">Explore Research</a>
-        <a class="button secondary" href="contact.html">Get in Touch</a>
+      <div class="card">
+        <h1>Welcome</h1>
+        <p class="lead">
+          I am a researcher at the University of Maryland, Baltimore. My work focuses on sleep,
+          chronic pain, and placebo effects.
+        </p>
+
+        <div class="buttons">
+          <a class="button" href="research.html">Explore Research</a>
+          <a class="button secondary" href="contact.html">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Photo</h2>
+        <img class="portrait" src="assets/yang-wang.jpg" alt="Yang Wang portrait" />
+        <p style="margin:10px 0 0; color:#555;">(Replace with your headshot)</p>
       </div>
     </section>
 
-    <section class="card">
-      <h2>News</h2>
-      <ul>
-        <li>Add your latest updates here (talks, papers, grants, lab openings).</li>
-        <li>Example: “New preprint on …”</li>
-      </ul>
+    <!-- NEWS + LAB PHOTO -->
+    <section class="grid">
+      <div class="card">
+        <h2>News</h2>
+        <ul>
+          <li>Add your latest updates here (talks, papers, grants, lab openings).</li>
+          <li>Example: “New preprint on …”</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Lab</h2>
+        <img class="labphoto" src="assets/lab-photo.jpg" alt="Lab photo" />
+        <p style="margin:10px 0 0; color:#555;">(Replace with a lab/group photo)</p>
+      </div>
     </section>
 
+    <!-- TWO INFO CARDS -->
     <section class="grid">
       <div class="card">
         <h2>Research Areas</h2>
@@ -54,6 +75,7 @@
         <p>Add 2–4 key papers here with links (Google Scholar / PubMed).</p>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
