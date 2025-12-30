@@ -174,10 +174,10 @@ body{
 }
 
 .team-photo{
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
-  border-radius: 16px;
+  border-radius: 50%;
   border: 1px solid var(--border);
 }
 
