@@ -136,6 +136,8 @@ body{
   max-width: 260px;
   border-radius: 16px;
   border: 1px solid var(--border);
+  display: block;
+  margin: 0 auto;
 }
 
 .labphoto{
