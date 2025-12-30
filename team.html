@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>REST Lab — Team</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <a href="index.html" class="brand-title">
+          <img src="assets/logo.png" alt="REST Lab logo" class="brand-logo">
+          <span>REST Lab</span>
+        </a>
+        <div class="subtitle">
+          University of Maryland, Baltimore, Pain and Translational Symptom Science Department
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a class="active" href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Team</h1>
+    <p class="lead">Meet the people behind the REST Lab.</p>
+
+    <section class="team-grid">
+      
+      <!-- Research Coordinator -->
+      <article class="team-card">
+        <img class="team-photo" src="assets/Rachel.jpg" alt="Rachel Massalee">
+        <div class="team-info">
+          <h2 class="team-name">Rachel Massalee</h2>
+          <div class="team-title">Research Coordinator</div>
+        </div>
+      </article>
+
+      <!-- PhD Student -->
+      <article class="team-card">
+        <img class="team-photo" src="assets/Francis.jpg" alt="Francis Westbrook">
+        <div class="team-info">
+          <h2 class="team-name">Francis Westbrook</h2>
+          <div class="team-title">PhD Student</div>
+        </div>
+      </article>
+
+      <!-- Research Assistant -->
+      <article class="team-card">
+        <img class="team-photo" src="Anna.jpg" alt="Anna Han">
+        <div class="team-info">
+          <h2 class="team-name">Anna Han</h2>
+          <div class="team-title">Research Assistant</div>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="y"></span> REST Lab
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
