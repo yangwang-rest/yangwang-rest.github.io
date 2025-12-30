@@ -36,6 +36,7 @@ body{
   justify-content:space-between;
   gap:16px;
   flex-wrap:wrap;
+  padding: 10px 18px;
 }
 
 .brand a{
@@ -54,7 +55,7 @@ body{
 }
 
 .brand-logo {
-  height: 5 px;   /* small, professional size */
+  height: 22px;   /* small, professional size */
   width: auto;
 }
 
